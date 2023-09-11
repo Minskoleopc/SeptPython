@@ -61,7 +61,6 @@ print(q12)
 print(q13)
 print(q14)
 
-
 # find()
 
 # index()
