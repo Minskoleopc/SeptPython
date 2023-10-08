@@ -66,6 +66,99 @@ for dirpath , dirnames , filenames in os.walk('.'):
     print(filenames)
 
 # filehandling
+#
+# try:
+#     # statements
+# except Exception1:
+#     # handler1
+# except Exception2:
+#    # handler2
+# else:
+#   print("i am into else")
+# finally:
+#    statements
+
+# try ======> except ====>  except  =====>  else  ====> finally
+# try:
+#     date = eval(input("Enter the date :"))
+# except NameError:
+#     print("Printing the error")
+# else:
+#     print("you entered a date" ,date)
+
+
+# program 3
+# try:
+#     name = input("Enter a file name")
+#     f = open(name,'r')
+# except IOError:
+#     print("File not found")
+# else:
+#     str = f.readlines()
+#     len(f.readlines())
+#     print(str)
+#     f.close()
+# finally:
+#     print(" i will run anyway")
+
+# program 4
+#
+# listA = [11,22,33,44,55]
+# listB = []
+# listC= ["chinmay","sarika","poorva"]
+# def avg(list):
+#     total = 0
+#     for x in list:
+#         total = total + x
+#     avg = total / len(list)
+#     return total , avg
+# try:
+#     q1, q2 = avg(listC)
+#     print(q1)
+#     print(q2)
+# except ZeroDivisionError:
+#     print("please do not pass the empty list")
+# except TypeError:
+#     print("please provide the numbers")
+#
+# print("hello")
+
+# program 5
+#
+# try:
+#     x =  int(input('Enter the a number'))
+#     y = 1 / x
+#     print(y)
+# finally:
+#     print("We are not catching any exception")
+
+
+# program 6
+# try:
+#     x  = int(input('Enter a number between 5 and 10: '))
+#     assert  x >= 5 and x <= 10
+#     print("pass")
+# except AssertionError:
+#     print('The condition is not fulfilled')
+#
+# try:
+#     x  = int(input('Enter a number between 5 and 10: '))
+#     assert  x >= 5 and x <= 10 , "your input is incorrect"
+#     print("pass")
+# except AssertionError as obj:
+#     print('The condition is not fulfilled')
+#     print(obj)
+
+
+
+
+
+
+
+
+
+
+
 
 
 
