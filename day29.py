@@ -66,11 +66,11 @@ print(b1 > b2)
 
 # overloading and overriding
 class Cal:
-    def addition(self,x,y):
-        print(x+y)
-
-    def addition(self,x,y,z):
-        print(x+y+z)
+    # def addition(self,x,y):
+    #     print(x+y)
+    #
+    # def addition(self,x,y,z):
+    #     print(x+y+z)
 
     def addition(self, x = None, y = None, z = None , a = None):
         #print(x + y + z + a)
