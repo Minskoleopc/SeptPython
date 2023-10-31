@@ -1,15 +1,15 @@
 
 
-# reclen = 10
+reclen = 10
 
-# with open('cities.bin','wb') as f:
-#     n = int(input("enter the numbers of cities?"))  # 4
-#     for i in range(n):
-#         str = input("Enter the city")  #pune
-#         ln = len(str) # 4
-#         str = str + (reclen - ln) * " "  #"pune      "
-#         str = str.encode()
-#         f.write(str)
+with open('cities.bin','wb') as f:
+    n = int(input("enter the numbers of cities?"))  # 4
+    for i in range(n):
+        str = input("Enter the city")  #pune
+        ln = len(str) # 4
+        str = str + (reclen - ln) * " "  #"pune      "
+        str = str.encode()
+        f.write(str)
 
 
 # reclen = 10
