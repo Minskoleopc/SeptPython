@@ -1,7 +1,5 @@
 
-
 reclen = 10
-
 with open('cities.bin','wb') as f:
     n = int(input("enter the numbers of cities?"))  # 4
     for i in range(n):
